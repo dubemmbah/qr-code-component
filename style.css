@@ -73,3 +73,13 @@ body {
   color: hsl(220, 15%, 55%);
   font-size: 1.45rem;
 }
+
+@media (max-width: 23.5em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  body {
+    padding: 2rem;
+  }
+}
